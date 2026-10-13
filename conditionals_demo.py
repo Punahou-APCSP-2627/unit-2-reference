@@ -10,12 +10,12 @@ def draw():
     py5.stroke(180)
     py5.line(200, 0, 200, py5.height)
     
-    # Selection: Respond dynamically to cursor location
+    # Selection
     if py5.mouse_x < 200:
-        py5.fill(70, 130, 240)    # Blue for left half
+        py5.fill(70, 130, 240)    # Blue
         label = "LEFT ZONE"
     else:
-        py5.fill(240, 90, 70)     # Red for right half
+        py5.fill(240, 90, 70)     # Red
         label = "RIGHT ZONE"
         
     py5.circle(py5.mouse_x, py5.mouse_y, 40)
