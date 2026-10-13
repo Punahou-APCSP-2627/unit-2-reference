@@ -10,13 +10,13 @@ def draw():
     py5.stroke(180)
     py5.line(200, 0, 200, py5.height)
     
-    # Selection
+    # Selection. TODO: What would you fill in for these labels?
     if py5.mouse_x < 200:
         py5.fill(70, 130, 240)    # Blue
-        label = "LEFT ZONE"
+        label = "????????"
     else:
         py5.fill(240, 90, 70)     # Red
-        label = "RIGHT ZONE"
+        label = "????????"
         
     py5.circle(py5.mouse_x, py5.mouse_y, 40)
     py5.fill(20)
