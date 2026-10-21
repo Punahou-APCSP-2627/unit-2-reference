@@ -1,4 +1,4 @@
-# Python Concepts: Type Casting, `break`, and `pass`
+# Python Concepts: `input()`, type casting, `break`, and `pass`
 
 ---
 
