@@ -13,10 +13,10 @@ def draw():
     # Selection. TODO: What would you fill in for these labels?
     if py5.mouse_x < 200:
         py5.fill(70, 130, 240)    # Blue
-        label = "????????"
+        label = "left side"
     else:
         py5.fill(240, 90, 70)     # Red
-        label = "????????"
+        label = "right side"
         
     py5.circle(py5.mouse_x, py5.mouse_y, 40)
     py5.fill(20)
