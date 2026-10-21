@@ -26,6 +26,9 @@ user_input = user_input.strip() == "True"
 print(f"Now, {user_input} is a {type(user_input)}")
 ```
 
+### Practice #1: Type Casting
+> Write a Python program that asks the user for their age using input(), converts the response to an integer, and prints how old they will be next year.
+
 ---
 
 ## 2. Loop Control: `break` and `continue`
@@ -50,6 +53,9 @@ while True:
 
 print(f"Final Total: {total}")
 ```
+
+### Practice #2a: Break
+> Write a while loop that continuously prompts the user to enter words and prints them back, but immediately exits the loop if the user types "quit".
 
 ### The `continue` Statement
 
@@ -76,6 +82,8 @@ while True:
 print(f"Final Total: {total}")
 ```
 
+### Practice #2b: Continue
+> Write a while loop iterating through numbers 1 to 10 that prints each number, but uses continue to skip printing any even numbers.
 ---
 
 ## 3. The `pass` Statement
@@ -123,3 +131,6 @@ while score < 3:
     else:
         print("Unknown command, try again.")
 ```
+
+### Practice #3: Pass
+> Write a while loop that continuously prompts the user to enter words and prints them back, but immediately exits the loop if the user types "quit".
