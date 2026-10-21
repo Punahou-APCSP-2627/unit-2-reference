@@ -133,4 +133,4 @@ while score < 3:
 ```
 
 ### Practice #3: Pass
-> Write a while loop that continuously prompts the user to enter words and prints them back, but immediately exits the loop if the user types "quit".
+> Write an if-elif-else statement checking a variable temperature, where the elif branch for temperature == 20 contains only a pass placeholder for future code.
