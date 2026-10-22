@@ -1,3 +1,4 @@
+
 import py5
 
 def settings():
@@ -58,7 +59,7 @@ py5.run_sketch()
 user_name = input("Enter your name: ")
 print("Hello,", user_name)
 print("Type of user_name:", type(user_name))
-print("-" * 30)
+print("\n" + "-" * 30+ "\n")
 
 # Part B: Type Casting to Integer
 raw_age = input("Enter your age in whole years: ")
@@ -70,7 +71,7 @@ age = int(raw_age)
 print("age value after conversion:", age)
 print("age type after conversion:", type(age))
 print("Next year you will be:", age + 1)
-print("-" * 30)
+print("\n" + "-" * 30+ "\n")
 
 # Part C: The Boolean Gotcha vs. eval()
 flag_input = input("Type the word False exactly: ")
@@ -79,6 +80,8 @@ flag_input = input("Type the word False exactly: ")
 bad_bool = bool(flag_input)
 print("Using bool(flag_input):", bad_bool)
 print("Type of bad_bool:", type(bad_bool))
+
+print("\n")
 
 # Method 2: Using eval() to interpret the string literal
 real_bool = eval(flag_input)
