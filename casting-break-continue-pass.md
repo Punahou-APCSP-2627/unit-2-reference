@@ -59,6 +59,8 @@ print(f"Final Total: {total}")
 
 ### The `continue` Statement
 
+One "iteration" of a loop is a single, top-to-bottom execution of the body of code for that loop. Sometimes, we want to _skip_ an iteration of a loop if certain conditions are met. We can achieve the skip using Python's `continue` keyword.
+
 * **`continue`:** Skips the rest of the current loop iteration and returns directly to the loop condition evaluation for the next iteration.
 
 #### Code Example
