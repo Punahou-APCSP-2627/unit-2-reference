@@ -3,6 +3,8 @@
 Testing a program means choosing inputs or actions and checking whether the program behaves as expected. Use these four categories to help you choose tests.
 > **Categories can overlap.** For example, a score of 101 is both an invalid input and a boundary test when scores must be between 0 and 100. Focus on choosing useful tests and explaining your reasoning.
 
+<br>
+
 ## Four Categories of Tests
 
 | Category | Guiding question |
