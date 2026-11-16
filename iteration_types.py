@@ -1,3 +1,12 @@
+'''
+Rules of thumb:
+1. When you know (or can easily calculate) exactly how many times the loop should run, use some version of a for loop.
+2. If you don't know how long/how many times the loop will have to run, use a while loop.
+3. If you specifically need to obtain and validate input (or validate random selection), use a forever loop (while True) with a break statement.
+
+Of course, there can be exceptions to these rules in certain situations, but they're a good place to start.
+'''
+
 # STRATEGY 1: VISUAL EDGE DETECTION (while condition)
 # Core Idea: Keep drawing as long as the shape is inside the canvas boundary.
 
@@ -13,7 +22,7 @@ while x < width:  # 2. Condition: Canvas boundary check
 
 # ================================================================================
 
-# STRATEGY 2: SPATIAL GRID STEPPING (for loop with range)
+# STRATEGY 2: SPATIAL GRID STEPPING (for loop using range() with multiple parameters)
 # Concept: Step directly across canvas coordinates in fixed pixel increments.
 
 
@@ -41,7 +50,7 @@ while count < 5:  # 2. Repeat exactly 5 times
 
 # ================================================================================
 
-# STRATEGY 4: ABSTRACT FREQUENCY & INDEXING (for loop with 1 argument)
+# STRATEGY 4: ABSTRACT FREQUENCY & INDEXING (for loop using range() with one parameter)
 # Concept: Repeat N times using a counting index (0, 1, 2, ... N-1).
 
 # range(10) creates the "sequence" of numbers (0, 1, 2, ..., 9).
@@ -58,7 +67,7 @@ for i in range(10):
 
 # ================================================================================
 
-# STRATEGY 5: FLOW INTERRUPTION (break & continue)
+# BONUS: FLOW INTERRUPTION (break & continue)
 # Core Idea: Dynamically skip an iteration or exit a loop based on conditions.
 
 for i in range(10):
