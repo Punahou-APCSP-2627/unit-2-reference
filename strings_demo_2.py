@@ -45,5 +45,5 @@ loud_pet = pet.upper()
 print("Saved in new variable:", loud_pet)          # "CAT"
 
 print("\nTo 'change' a single character, build a NEW string and reassign the variable:")
-pet = "b" + pet[1:]
+pet2 = "b" + pet[1:]
 print("Reassigned pet:", pet)                      # "bat"
